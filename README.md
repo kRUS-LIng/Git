@@ -19,11 +19,7 @@
 * Если нужно дополнить последний коммит — `git commit --amend --no-edit`.  
 * Если нужно изменить сообщение коммита — `git commit --amend -m "Новое сообщение"`.  
 * Откатить» коммит до коммита с хешем `<hash>` — `git reset --hard <commit hash>`.  
-<<<<<<< HEAD
-* Выполнить unstage изменений (после `git add`) — `git restore --staged <file>`.  
-=======
-* Выполнить unstage изменений — `git restore --staged <file>`.  
->>>>>>> origin/master
+* Выполнить unstage изменений (после `git add`) — `git restore --staged <file>`.  .  
 * «Откатить» изменения, которые не попали ни в staging, ни в коммит, — `git restore <file>`.  
 
 ---
